@@ -26,8 +26,11 @@ body{
       font-size: 18px;
       
 }
+.box{
+      padding: 0 130px;
+}
 /* share style end  */
-
+/* nav style ccs start  */
 nav{
       display: flex;
       justify-content: space-between;
@@ -51,13 +54,14 @@ nav a{
       text-decoration: none;
       color: #474747;
 }
+/* nav style css end  */
 header{
       background-color: #FFF8F3;
       background-image: url("images/header_bg.png"), url("images/developer.png");
       background-repeat: no-repeat;
       background-position: bottom right, top left;
 }
-/* banner css  */
+/* banner css start  */
 .banner{
       padding: 30px 30px 0px 150px;
       display: flex;
@@ -89,11 +93,108 @@ header{
       font-weight: 400;
       line-height: 22px;
 }
+/* maine section start  */
+main{
+      max-width: 1140px;
+      margin: 0 auto;
+}
+/* maine section end  */
 /* about section  start */
 .about{
       padding: 130px;
       border-radius: 10px;
-      background-color: #FFF8F3;
-      margin-top: 130px auto;
+      background-color:#FFF8F3;
+      margin-top: 130px;
+}
+.about-container{
+      display: flex;
+      
+      justify-content: space-around;
+
+}
+.about-info{
+      text-align: center;
+}
+.info-title{
+      color: #757575;
+      font-size: 15px;
+      font-weight: 400;
+      margin-bottom: 0px;
+     
+}
+.info-description{
+      color: #181818;
+      font-size: 20px;
+      font-weight: 400;
+      margin-top: 0;
+      
 }
 /* about section end  */
+/* what i do section start */
+.what{
+      margin-top: 130px;
+}
+.skill-container{
+      display: flex;
+      justify-content: space-around;
+}
+.skill{
+      border-radius: 5px;
+      background: #FFF;
+      box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+      padding: 33px;
+      margin: 50px 15px;
+}
+.skill-title{
+      color: #181818;
+      font-size: 20px;
+      font-weight: 700;
+      
+}
+.skill-description{
+      color: #757575;
+      font-size: 16px;
+      font-weight: 400;
+}
+/* what i do section end  */
+/* resume style css start */
+.resume-section{
+      margin-top: 50px;
+      margin-bottom: 70px;
+}
+.resume{
+      display: flex;
+      justify-content: space-around;
+      margin-top: 50px;
+}
+.my-education{}
+.info{
+     padding: 0 25px 0 0; 
+}
+.info p{
+      padding-right: 42px;
+      color: #757575;
+      font-size: 16px;
+      font-weight: 400;
+}
+.info h5{
+color: #474747;
+font-size: 20px;
+font-weight: 700;
+
+}
+.my-education h4{
+      color: #474747;
+      font-size: 30px;
+      font-weight: 700;
+
+}
+.my-experience h4{
+      color: #474747;
+      font-size: 30px;
+      font-weight: 700;
+}
+.b-div{
+      text-align: center;
+      margin-top: 50px;
+}
